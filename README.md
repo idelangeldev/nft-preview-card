@@ -11,6 +11,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -31,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/a-nice-simple-challenge-using-flexbox-and-absolute-positioning-vV2ow4WBp4](https://www.frontendmentor.io/solutions/a-nice-simple-challenge-using-flexbox-and-absolute-positioning-vV2ow4WBp4)
+- Live Site URL: [https://nft-ida.netlify.app/](https://nft-ida.netlify.app/)
 
 ## My process
 
@@ -46,3 +47,7 @@ Users should be able to:
 
 - Frontend Mentor - [@mexwebdev21](https://www.frontendmentor.io/profile/mexwebdev21)
 - Twitter - [@mexwebdev21](https://www.twitter.com/mexwebdev21)
+
+## Acknowledgments
+
+A big shoutout to Daniel Den - [@denielden](https://www.frontendmentor.io/profile/denielden) for pointing out that I had used the wrong HTML tag.

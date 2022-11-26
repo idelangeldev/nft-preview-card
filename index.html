@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta name="author" content="Israel del Angel" />
+    <meta name="theme-color" content="#0d192b" />
 
     <link
       rel="icon"
@@ -20,67 +21,77 @@
     />
     <link rel="stylesheet" href="css/style.css" />
 
-    <title>Frontend Mentor | NFT preview card component</title>
+    <title>
+      NFT preview card component by Israel Del Angel | Frontend Mentor
+    </title>
   </head>
   <body>
-    <main class="card">
-      <div class="card_img-container">
-        <a href="#" class="card_link">
+    <main class="main">
+      <article class="card">
+        <button class="card_btn">
           <img
             src="images/image-equilibrium.jpg"
             alt="image-equilibrium"
             class="card_img"
           />
-        </a>
-        <a href="#" class="card_overlay">
+
           <img
             src="images/icon-view.svg"
             alt="icon-view"
             class="card_img-overlay"
           />
-        </a>
-      </div>
-      <div class="card_text-box">
-        <h1><a href="#" class="card_title">Equilibrium #3429</a></h1>
+        </button>
+        <div class="card_text-box">
+          <h1><a href="#" class="card_title">Equilibrium #3429</a></h1>
 
-        <p class="card_text">
-          Our Equilibrium collection promotes balance and calm.
-        </p>
-        <div class="card_details">
-          <span class="card_value"
-            ><img
-              src="images/icon-ethereum.svg"
-              alt="icon-ethereum"
-              class="card_img--ethereum"
-            />0.041 ETH</span
-          >
-          <span class="card_time-left">
-            <img
-              src="images/icon-clock.svg"
-              alt="clock"
-              class="card_img--clock"
-            />
-            3 days left
-          </span>
-        </div>
-        <div class="card_creator">
-          <img
-            src="images/image-avatar.png"
-            alt="Jules Wyvern - Equilibrium Creator"
-            class="card_img--avatar"
-          />
-          <p class="card_creator-name">
-            Creation of <a href="#" class="card_name">Jules Wyvern</a>
+          <p class="card_text">
+            Our Equilibrium collection promotes balance and calm.
           </p>
+          <div class="card_details">
+            <span class="card_value"
+              ><img
+                src="images/icon-ethereum.svg"
+                alt="icon-ethereum"
+                class="card_img--ethereum"
+              />0.041 ETH</span
+            >
+            <span class="card_time-left">
+              <img
+                src="images/icon-clock.svg"
+                alt="clock"
+                class="card_img--clock"
+              />
+              3 days left
+            </span>
+          </div>
+          <div class="card_creator">
+            <img
+              src="images/image-avatar.png"
+              alt="Jules Wyvern - Equilibrium Creator"
+              class="card_img--avatar"
+            />
+            <p class="card_creator-name">
+              Creation of <a href="#" class="card_name">Jules Wyvern</a>
+            </p>
+          </div>
         </div>
-      </div>
+      </article>
     </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="attribution_link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. &nbsp; Coded by
+      <a
+        class="attribution_link"
+        href="https://www.frontendmentor.io/profile/mexwebdev21"
+        target="_blank"
+        >Israel del Angel</a
+      >.
+    </footer>
   </body>
 </html>
